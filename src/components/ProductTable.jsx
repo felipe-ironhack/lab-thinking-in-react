@@ -6,7 +6,7 @@ const ProductTable = ({ products }) => {
   return (
     <table>
       <thead>
-       <tr>
+       <tr className='table-header'>
         <td>Name</td>
         <td>Price</td>
        </tr>

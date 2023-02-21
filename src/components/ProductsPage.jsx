@@ -21,9 +21,12 @@ const ProductsPage = () => {
       <SearchBar query={query} setQuery={setQuery} setInStock={setInStock} />
       <ProductTable products={productsToShow} />
       <div className='legend'>
-        <p> Products with the  </p>
+        <div className='available'></div>
+        <p> available products</p>
+      </div>
+      <div className='legend'>
         <div className='not-available'></div>
-        <p> background aren't available </p>
+        <p> not avalaible products </p>
       </div>
     </>
   )
