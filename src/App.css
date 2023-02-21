@@ -46,14 +46,10 @@ thead {
   align-self: flex-start;
 }
 
-div .not-available{
+div .square{
   margin-top: 2px;
   width: 1rem;
   height: 1rem;
 }
-div .available{
-  margin-top: 2px;
-  width: 1rem;
-  height: 1rem;
-}
+
 
