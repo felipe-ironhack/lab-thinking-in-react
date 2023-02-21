@@ -1,15 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 const ProductRow = ({ product }) => {
-  const inStock = {
-    backgroundColor: product.inStock ? 'rgba(50, 205, 50, 0.758)' : 'orangered'
-  }
+
   return (
-    <tr style={inStock}>
+    <tr className={product.inStock ? 'available' : 'not-available'}>
       <td> {product.name} </td>
       <td> {product.price} </td>
     </tr>
-  )
-}
+  );
+};
 
-export default ProductRow
+export default ProductRow;

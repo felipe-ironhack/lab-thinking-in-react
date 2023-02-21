@@ -20,6 +20,11 @@ const ProductsPage = () => {
       <h1>IronStore</h1>
       <SearchBar query={query} setQuery={setQuery} setInStock={setInStock} />
       <ProductTable products={productsToShow} />
+      <div className='legend'>
+        <p> Products with the  </p>
+        <div className='not-available'></div>
+        <p> background aren't available </p>
+      </div>
     </>
   )
 }
