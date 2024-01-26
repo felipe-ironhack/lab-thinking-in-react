@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  margin: 2rem auto;
+  width: 90%;
+  border: 1px solid black;
+}
+
+thead tr {
+  background-color: #40c7ed;
+}
+
+.red-letters {
+  color: rgb(255, 93, 93)
+}
+
